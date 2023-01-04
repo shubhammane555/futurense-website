@@ -1,0 +1,386 @@
+
+
+
+.main1{
+    width: 100%;
+    background-color: black;
+    margin-top: 200px;
+}
+.body{
+    background-color: #3F3F40 !important;
+}
+
+
+
+.line{
+    color:white;
+   
+    text-align: initial;
+    margin-top: 140px;
+    margin-left: 34px;
+    font-family: DM Sans;
+font-size: 24px;
+font-weight: 400;
+line-height: 28px;
+letter-spacing: -0.0528em;
+}
+.lineyellow{
+color: #FDBA2F;
+}
+/* .card2,.card3,.card4,.card5,.card6{
+    display:none;
+} */
+/* .maincard{
+    position:relative;
+
+} */
+
+
+.huddle {
+    height: 253px;
+    /* background-color: rgb(0, 255, 149); */
+  }
+  
+  .huddle1 {
+      height: 253px;
+      /* background-color: rgb(0, 255, 149); */
+    }
+  .huddle1-content-p1 p{
+  position: relative;
+      width: 168px;
+  height: 42px;
+  
+  
+  font-family: 'Gilroy';
+  font-style: italic;
+  font-weight: 1000;
+  font-size: 50px;
+  line-height: 80px;
+  /* or 143% */
+  
+  
+  letter-spacing: -0.04em;
+  
+  color: #FFFFFF;
+  }
+  .huddle1-content-p2 p{
+      position: relative;
+  width: 415px;
+  height: 55px;
+  /* left: 656px;
+  top: 19px; */
+  top:5px;
+  
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 18px;
+  /* or 100% */
+  
+  display: flex;
+  align-items: center;
+  letter-spacing: -0.04em;
+  
+  color: #FFFFFF;
+  }
+  .spanhire{
+      position: relative;
+  width: 104px;
+  height: 180px;
+  
+  
+  font-family: 'Gilroy';
+  font-style: italic;
+  font-weight: 1000;
+  font-size: 100px;
+  line-height: 35px;
+  /* or 24% */
+  
+  letter-spacing: -0.04em;
+  
+  color: #FDBA2F;
+  }
+  .huddle-content {
+    /* background-color: rgb(255, 196, 0); */
+    position: absolute;
+    height: 10.51px;
+    top: 120.83px;
+    left: 283px;
+    width: 500.03px;
+  }
+  
+  .huddle-content-tm {
+    /* background-color: red; */
+    position: absolute;
+    height: 10.51px;
+    /* top: 80px;
+    left: 283px; */
+    top: 65px;
+    left: 268px; 
+    width: 540px;
+    display: flex;
+    justify-content: right;
+  }
+  .huddle-content-tm-p {
+    font-family: "DM Sans";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 35px;
+    opacity: 0;
+    /* identical to box height, or 97% */
+  
+    display: flex;
+    align-items: center;
+  
+    color: #ffffff;
+  }
+  
+  .hud p {
+    font-family: 'Gilroy';
+    /* font-family: 'DM Sans'; */
+    font-style: italic;
+    font-weight: 1000;
+    font-size: 8.2949px;
+    /* font-size: 100px;  */
+    line-height: 2px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.01em;
+  
+    color: #fdba2f;
+  }
+  
+  @keyframes myhuddle {
+    0% {
+      font-size: 8.2949px;
+      /* line-height: 2px; */
+      /* transform: scale(1);  */
+    }
+    /* 100% {font-size: 150px;line-height: 35px;} */
+    100% {
+      font-size: 100px;
+      /* line-height: 35px; */
+      transform: scale(1); 
+    }
+  }
+  
+  .huddle:hover .hud-p1 {
+    animation-name: myhuddle !important;
+    animation-duration: 1s !important;
+    animation-fill-mode: forwards !important;
+  }
+  .huddle:hover .hud-p2 {
+    animation-name: myhuddle !important;
+    animation-duration: 1s !important;
+    animation-delay: 1s !important;
+    animation-fill-mode: forwards !important;
+  }
+  
+  .huddle:hover .hud-p3 {
+    animation-name: myhuddle !important;
+    animation-duration: 1s !important;
+    animation-delay: 2s !important;
+    animation-fill-mode: forwards !important;
+  }
+  .huddle:hover .hud-p4 {
+    animation-name: myhuddle !important;
+    animation-duration: 1s !important;
+    animation-delay: 3s !important;
+    animation-fill-mode: forwards !important;
+  }
+  .huddle:hover .hud-p5 {
+    animation-name: myhuddle !important;
+    animation-duration: 1s !important;
+    animation-delay: 4s !important;
+    animation-fill-mode: forwards !important;
+  }
+  .huddle:hover .hud-p6 {
+    animation-name: myhuddle !important;
+    animation-duration: 1s !important;
+    animation-delay: 5s !important;
+    animation-fill-mode: forwards !important;
+  }
+  
+  @keyframes myhuddle2 {
+    0% {
+      transform: translate(0px, 0px) ;
+    }
+    100% {
+      transform: translate(0px, 100px) ;
+    }
+    /* 100% {font-size: 150px;line-height: 35px;} */
+    /* 100% {background-color: blue !important} */
+  }
+  
+  /* @keyframes myhuddle3 {
+   
+    100% {
+      transform: translate(0px, 100px);
+    }
+  } */
+  
+  @keyframes Tmanimation {
+    from {
+     opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+   
+  }
+  @keyframes Tmanimationmove {
+      from {
+          transform: translate(0px,0px);
+      }
+      to {
+          transform: translate(15px,15px);
+      }
+     
+    }
+  .huddle:hover .huddle-content-tm-p {
+   
+  
+  
+    animation-name: Tmanimation !important;
+    animation-duration: 1s !important;
+    animation-delay: 6s !important;
+    animation-fill-mode: forwards !important;
+  
+  }
+  .huddle:hover .huddle-content-tm {
+   
+  
+  
+      animation-name: Tmanimationmove !important;
+      animation-duration: 1s !important;
+      animation-delay: 7s !important;
+      animation-fill-mode: forwards !important;
+    
+    }
+  
+    @keyframes ZindexAnimation {
+      from {
+          z-index: 1;
+      }
+      to {
+          z-index: -1;
+      }
+     
+    }
+  
+    @keyframes ZindexAnimationreverse {
+      from {
+          z-index: -1;
+      }
+      to {
+          z-index: 2;
+      }
+     
+    }
+  
+    .huddle:hover {
+  
+      animation-name: ZindexAnimation !important;
+      animation-duration: 1s !important;
+      animation-delay: 8s !important;
+      animation-fill-mode: forwards !important;
+      
+    }
+  
+    .huddle:hover ~.huddle1 {
+  
+      animation-name: ZindexAnimationreverse !important;
+      animation-duration: 1s !important;
+      animation-delay: 9s !important;
+      animation-fill-mode: forwards !important;
+      
+    }
+  
+    
+  
+    @keyframes opacityanimation {
+      from {
+       opacity: 0;
+      }
+      to {
+        opacity: 1;
+      }
+     
+    }
+  
+  
+    body:has(#huddle:hover) #huddle1-content-p21 {
+      animation-name: opacityanimation !important;
+      animation-duration: 1s !important;
+      animation-delay: 10s !important;
+      animation-fill-mode: forwards !important;
+    }
+  
+    body:has(#huddle:hover) #huddle1-content-p211 {
+      animation-name: opacityanimation !important;
+      animation-duration: 1s !important;
+      animation-delay: 10s !important;
+      animation-fill-mode: forwards !important;
+    }
+  
+  
+  
+  
+  
+  
+  
+  .huddle:hover .hud-sec {
+    transform: translate(0px, -80px);
+    transition: 1s;
+    transition-delay: 7s;
+    /* transition: 1s;
+      transform: translate(0px,50px);  */
+  }
+  .huddle:hover .dle-sec {
+    transform: translate(0px, 60px);
+    transition: 1s;
+    transition-delay: 7s;
+  }
+  
+  
+  .exp1:hover .ac1 {
+    /* transform: translate(50px, -50px); */
+    transform: translate3d(50px,50px,0px);
+    transition: 1s;
+  }
+  
+  
+  
+  /* .exp1:hover .bc1 {
+    transform: translate(-50px, 50px);
+    transition: 1s;
+    transition-delay: 2s;
+  } */
+  
+  
+  .mainhuddle{
+    margin-top: -445px;
+  }
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  

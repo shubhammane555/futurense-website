@@ -1,0 +1,37 @@
+
+.nav-link p{
+    margin-right: 20px;
+color: rgb(39, 38, 38);
+}
+
+.logo-img{
+
+width: 124px;
+height: 53px;
+left: 1475px;
+top: 1453px;
+margin-left: 184px;
+
+}
+
+.bg-white:hover {
+    background-color: rgb(18, 17, 17) !important;
+    
+}
+
+
+.navbar-nav:hover p {
+    color: #FDBA2F;
+}
+.logo-img:hover{
+    background-color: white;
+}
+.navbar{
+    width: 103%;
+}
+.container-fluid{
+    background-color: white;
+}
+.container-fluid:hover{
+    background-color: rgb(18, 17, 17);
+}

@@ -1,0 +1,27 @@
+.wrapper{
+    max-height: auto;
+    display: flex;
+    overflow: auto;
+    width: 80%;
+    margin-top: 100px;
+}
+
+.wrapper::-webkit-scrollbar{
+    width: 0;
+}
+
+.wrapper .item{
+    min-width: 50%;
+    height: auto;
+    margin-right: 14px;
+}
+
+
+.card{
+    background: #202020;
+    width: 100%;
+}
+
+.partner-title{
+    color: #FDBA2F;
+}
